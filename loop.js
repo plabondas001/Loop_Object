@@ -17,3 +17,10 @@ for(let man in person){
     console.log(`${man} ${person[man]}`);
     
 }
+
+// for of loop.... use entries method
+
+for(let [key,value] of Object.entries(person)){
+    console.log(`key: ${key} value: ${value}`);
+    
+}
